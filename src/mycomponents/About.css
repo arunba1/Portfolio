@@ -1,0 +1,101 @@
+.App{
+  text-align: center;
+}
+
+#particles canvas{
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.p1{
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    padding: 20px;
+    background-color: none; /* Same background color as body */
+    border-radius: 5px;
+    
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    border: 2px solid;
+}
+.p1 p{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Calibriyum", "Calibri", "Arial", sans-serif;
+}
+
+.b1{
+  position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 10;
+    padding: 10px; 
+    background-color: none;
+  }
+
+.resumebutton{
+  background-color: black;
+}
+
+.logo-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: -250px; /* Position at the bottom */
+  left: 650px; /* Position at the left */
+  right: auto; /* Reset right property */
+  top: auto; 
+  background-color: none;
+}
+
+.logo-container img {
+  max-width: 35%; /* Adjust the size of the logo as needed */
+  max-height: 35%;
+  background-color: none; /* Adjust the size of the logo as needed */
+}
+
+.arrow {
+  /* Existing styles */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: -250px; /* Position at the bottom */
+  left: 650px; /* Position at the left */
+  right: auto; /* Reset right property */
+  top: auto; /* Reset top property */
+  animation: fade 1s infinite; /* Apply fade animation */
+  z-index: 1; 
+  
+}
+
+.p2{
+  position: fixed;
+    top: 13%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 10px;
+    background-color: none; /* Same background color as body */
+    border-radius: 5px;
+    
+    color: #FFFFFF;
+    opacity: 0.5; /* Text color */
+    /* Center text */
+    
+    font-family: "Times New Roman", Times, serif;
+    opacity: 0.5; /* Add a shadow */
+}

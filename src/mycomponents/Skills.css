@@ -1,0 +1,29 @@
+.p8{
+    position: fixed;
+    top: 50%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 10px;
+    background-color: none; /* Same background color as body */
+    border-radius: 5px;
+    color: white; /* Text color */
+     /* Center text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    border: 2px solid;
+}
+
+.p9{
+    position: fixed;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 10px;
+    background-color: none; /* Same background color as body */
+    border-radius: 5px;
+    color: white; /* Text color */
+     /* Center text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    border: 2px solid;
+}

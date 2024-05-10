@@ -1,0 +1,31 @@
+.s1 {
+    /* Existing styles */
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    padding: 10px;
+    background-color: black; /* Same background color as body */
+    border-radius: 5px;
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    border: 2px solid;
+}
+
+.s1 .content img {
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    height: 380px; /* Maintain aspect ratio */
+ }
+   
+ .s1 .content {
+     display: flex;
+     align-items: center;
+ }
+   
+ .s1 .content p {
+     flex: 1;
+     text-align: left;
+     margin-right: 20px; /* Adjust as needed for spacing between text and arrow */
+ }
